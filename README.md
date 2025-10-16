@@ -8,11 +8,13 @@ A/B test analysis and visualization dashboard using Bokeh and Python.
 
 ---
 
-💾 دریافت دیتاست
+## 💾 دریافت دیتاست
 
 برای اجرای پروژه، ابتدا دیتاست را از لینک زیر دانلود کنید و فایل **`ab_data.csv`** را در مسیر اصلی پروژه قرار دهید:
 
 🔗 [دانلود دیتاست از Kaggle](https://www.kaggle.com/datasets/mostafaelmehy/ab-data?resource=download)
+
+---
 
 ## 🧩 ساختار پروژه
 
@@ -46,16 +48,3 @@ A/B test analysis and visualization dashboard using Bokeh and Python.
 
 ```bash
 pip install bokeh pandas numpy matplotlib statsmodels
-
----
-
-
-
-
-## 🚀 نحوه اجرا
-
-1. اطمینان حاصل کنید که فایل `ab_data.csv` در کنار فایل‌های پروژه قرار دارد.  
-2. برای اجرای داشبورد، **ترمینال را باز کنید، به مسیر فایل `main.py` بروید و دستور زیر را وارد کنید:**
-
-```bash
-bokeh serve --show main.py
