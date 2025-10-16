@@ -42,9 +42,13 @@ A/B test analysis and visualization dashboard using Bokeh and Python.
 
 ---
 
-## ⚙️ پیش‌نیازها
+## ⚙️ نحوه اجرا و پیش‌نیازها
 
-برای اجرای پروژه باید کتابخانه‌های زیر نصب باشند:
+برای اجرای پروژه، ابتدا کتابخانه‌های زیر را نصب کنید و سپس داشبورد را اجرا نمایید:
 
 ```bash
+# نصب پیش‌نیازها
 pip install bokeh pandas numpy matplotlib statsmodels
+
+# اجرای داشبورد
+bokeh serve --show main.py
